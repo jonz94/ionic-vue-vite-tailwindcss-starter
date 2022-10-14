@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@ionic/vue': ^6.3.1
   '@ionic/vue-router': ^6.3.1
-  '@types/node': ^16.11.62
+  '@types/node': ^16.11.65
   '@types/prettier': ^2.7.1
   '@vitejs/plugin-vue': ^3.1.0
   '@volar/vue-typescript': ^0.40.13
@@ -29,7 +29,7 @@ dependencies:
   vue-router: 4.1.5_vue@3.2.40
 
 devDependencies:
-  '@types/node': 16.11.62
+  '@types/node': 16.11.65
   '@types/prettier': 2.7.1
   '@vitejs/plugin-vue': 3.1.0_vite@3.1.4+vue@3.2.40
   '@volar/vue-typescript': 0.40.13
@@ -145,15 +145,15 @@ packages:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 16.11.62
+      '@types/node': 16.11.65
     dev: true
 
   /@types/minimatch/5.1.2:
     resolution: {integrity: sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==}
     dev: true
 
-  /@types/node/16.11.62:
-    resolution: {integrity: sha512-K/ggecSdwAAy2NUW4WKmF4Rc03GKbsfP+k326UWgckoS+Rzd2PaWbjk76dSmqdLQvLTJAO9axiTUJ6488mFsYQ==}
+  /@types/node/16.11.65:
+    resolution: {integrity: sha512-Vfz7wGMOr4jbQGiQHVJm8VjeQwM9Ya7mHe9LtQ264/Epf5n1KiZShOFqk++nBzw6a/ubgYdB9Od7P+MH/LjoWw==}
     dev: true
 
   /@types/prettier/2.7.1:

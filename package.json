@@ -17,7 +17,7 @@
     "vue-router": "^4.1.5"
   },
   "devDependencies": {
-    "@types/node": "^16.11.62",
+    "@types/node": "^16.11.65",
     "@types/prettier": "^2.7.1",
     "@vitejs/plugin-vue": "^3.1.0",
     "@volar/vue-typescript": "^0.40.13",
