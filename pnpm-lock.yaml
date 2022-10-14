@@ -5,7 +5,7 @@ specifiers:
   '@ionic/vue-router': ^6.3.1
   '@types/node': ^16.11.65
   '@types/prettier': ^2.7.1
-  '@vitejs/plugin-vue': ^3.1.0
+  '@vitejs/plugin-vue': ^3.1.2
   '@volar/vue-typescript': ^0.40.13
   autoprefixer: ^10.4.12
   ionicons: ^6.0.3
@@ -31,7 +31,7 @@ dependencies:
 devDependencies:
   '@types/node': 16.11.65
   '@types/prettier': 2.7.1
-  '@vitejs/plugin-vue': 3.1.0_vite@3.1.4+vue@3.2.40
+  '@vitejs/plugin-vue': 3.1.2_vite@3.1.4+vue@3.2.40
   '@volar/vue-typescript': 0.40.13
   autoprefixer: 10.4.12_postcss@8.4.17
   postcss: 8.4.17
@@ -160,8 +160,8 @@ packages:
     resolution: {integrity: sha512-ri0UmynRRvZiiUJdiz38MmIblKK+oH30MztdBVR95dv/Ubw6neWSb8u1XpRb72L4qsZOhz+L+z9JD40SJmfWow==}
     dev: true
 
-  /@vitejs/plugin-vue/3.1.0_vite@3.1.4+vue@3.2.40:
-    resolution: {integrity: sha512-fmxtHPjSOEIRg6vHYDaem+97iwCUg/uSIaTzp98lhELt2ISOQuDo2hbkBdXod0g15IhfPMQmAxh4heUks2zvDA==}
+  /@vitejs/plugin-vue/3.1.2_vite@3.1.4+vue@3.2.40:
+    resolution: {integrity: sha512-3zxKNlvA3oNaKDYX0NBclgxTQ1xaFdL7PzwF6zj9tGFziKwmBa3Q/6XcJQxudlT81WxDjEhHmevvIC4Orc1LhQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
