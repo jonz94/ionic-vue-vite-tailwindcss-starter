@@ -8,7 +8,7 @@ specifiers:
   '@vitejs/plugin-vue': ^3.2.0
   '@volar/vue-typescript': ^1.0.9
   autoprefixer: ^10.4.13
-  ionicons: ^6.0.3
+  ionicons: ^6.0.4
   postcss: ^8.4.18
   prettier: ^2.7.1
   prettier-plugin-organize-imports: ^3.1.1
@@ -24,7 +24,7 @@ specifiers:
 dependencies:
   '@ionic/vue': 6.3.4
   '@ionic/vue-router': 6.3.4
-  ionicons: 6.0.3
+  ionicons: 6.0.4
   vue: 3.2.41
   vue-router: 4.1.5_vue@3.2.41
 
@@ -91,7 +91,7 @@ packages:
     resolution: {integrity: sha512-3EnKqFdon7Im8JNvuPoq/iGyYK7hskdb9u5hlQE0fHU/9Q0DvFVh17QTq1sQjXntoJovfRhaPJhG+kvZK3mVAQ==}
     dependencies:
       '@stencil/core': 2.18.0
-      ionicons: 6.0.3
+      ionicons: 6.0.4
       tslib: 2.4.0
     dev: false
 
@@ -105,7 +105,7 @@ packages:
     resolution: {integrity: sha512-Ww1qa+5iaF+Qmm131/5YxCQg+sL7GmKvTe1ODrLkP8l06Hp3usWft848dM1zP2yw5M+CdEOTBmLFpOitRGUQ1Q==}
     dependencies:
       '@ionic/core': 6.3.4
-      ionicons: 6.0.3
+      ionicons: 6.0.4
     dev: false
 
   /@nodelib/fs.scandir/2.1.5:
@@ -128,12 +128,6 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
     dev: true
-
-  /@stencil/core/2.16.1:
-    resolution: {integrity: sha512-s/UJp9qxExL3DyQPT70kiuWeb3AdjbUZM+5lEIXn30I2DLcLYPOPXfsoWJODieQywq+3vPiLZeIdkoqjf6jcSw==}
-    engines: {node: '>=12.10.0', npm: '>=6.0.0'}
-    hasBin: true
-    dev: false
 
   /@stencil/core/2.18.0:
     resolution: {integrity: sha512-NLEY8Jq59smyiivBAxHKipsp9YkkW/K/Vm90zAyXQqukb12i2SFucWHJ1Ik7ropVlhmMVvigyxXgRfQ9quIqtg==}
@@ -841,10 +835,10 @@ packages:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
     dev: true
 
-  /ionicons/6.0.3:
-    resolution: {integrity: sha512-kVOWER991EMqLiVShrCSWKMHkgHZP7XfVdyN6YPMuoO33W7pc5CPNVNfR8OMe/I8rYEbaunyBs6dXNYpR6gGZw==}
+  /ionicons/6.0.4:
+    resolution: {integrity: sha512-uDNOkBo0OVYV+kIhb51g9mb7r3Z0b+78GPZQBsjXuaetNmrB/mNTqN/uFtO+vxL/rQySKjzk8qeKJI5NWL9Ueg==}
     dependencies:
-      '@stencil/core': 2.16.1
+      '@stencil/core': 2.18.0
     dev: false
 
   /is-binary-path/2.1.0:

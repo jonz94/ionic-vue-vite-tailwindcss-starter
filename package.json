@@ -12,7 +12,7 @@
   "dependencies": {
     "@ionic/vue": "^6.3.4",
     "@ionic/vue-router": "^6.3.4",
-    "ionicons": "^6.0.3",
+    "ionicons": "^6.0.4",
     "vue": "^3.2.41",
     "vue-router": "^4.1.5"
   },
