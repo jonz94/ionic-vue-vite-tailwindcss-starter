@@ -11,7 +11,7 @@ specifiers:
   ionicons: ^6.0.4
   postcss: ^8.4.19
   prettier: ^2.7.1
-  prettier-plugin-organize-imports: ^3.1.1
+  prettier-plugin-organize-imports: ^3.2.0
   prettier-plugin-packagejson: ^2.3.0
   prettier-plugin-tailwindcss: ^0.1.13
   tailwindcss: ^3.2.2
@@ -36,7 +36,7 @@ devDependencies:
   autoprefixer: 10.4.13_postcss@8.4.19
   postcss: 8.4.19
   prettier: 2.7.1
-  prettier-plugin-organize-imports: 3.1.1_fvqdsofvjn3tum532o4noc372u
+  prettier-plugin-organize-imports: 3.2.0_fvqdsofvjn3tum532o4noc372u
   prettier-plugin-packagejson: 2.3.0_prettier@2.7.1
   prettier-plugin-tailwindcss: 0.1.13_prettier@2.7.1
   tailwindcss: 3.2.2_postcss@8.4.19
@@ -1006,13 +1006,16 @@ packages:
       picocolors: 1.0.0
       source-map-js: 1.0.2
 
-  /prettier-plugin-organize-imports/3.1.1_fvqdsofvjn3tum532o4noc372u:
-    resolution: {integrity: sha512-6bHIQzybqA644h0WGUW3gpWEVbMBvzui5wCMRBi7qA++d5ov2xjjfDk8pxJJ/ardfZrGAwizKMq/fQMFdJ+0Zw==}
+  /prettier-plugin-organize-imports/3.2.0_fvqdsofvjn3tum532o4noc372u:
+    resolution: {integrity: sha512-jeZ13YVKgXYCzkuwnoR6saKxJmdRYWMxS2G/su1V3qDWqTo1Q5iSoTblBxsXXAmomXfPqa/uA7YCK0/S86KLOQ==}
     peerDependencies:
-      '@volar/vue-typescript': '>=0.40.2'
+      '@volar/vue-language-plugin-pug': ^1.0.4
+      '@volar/vue-typescript': ^1.0.4
       prettier: '>=2.0'
       typescript: '>=2.9'
     peerDependenciesMeta:
+      '@volar/vue-language-plugin-pug':
+        optional: true
       '@volar/vue-typescript':
         optional: true
     dependencies:
