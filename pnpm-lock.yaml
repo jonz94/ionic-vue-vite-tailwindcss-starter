@@ -6,7 +6,7 @@ specifiers:
   '@types/node': ^18.11.10
   '@types/prettier': ^2.7.1
   '@vitejs/plugin-vue': ^3.2.0
-  '@volar/vue-typescript': ^1.0.9
+  '@volar/vue-typescript': ^1.0.11
   autoprefixer: ^10.4.13
   ionicons: ^6.0.4
   postcss: ^8.4.19
@@ -32,11 +32,11 @@ devDependencies:
   '@types/node': 18.11.10
   '@types/prettier': 2.7.1
   '@vitejs/plugin-vue': 3.2.0_vite@3.2.4+vue@3.2.45
-  '@volar/vue-typescript': 1.0.9
+  '@volar/vue-typescript': 1.0.11
   autoprefixer: 10.4.13_postcss@8.4.19
   postcss: 8.4.19
   prettier: 2.7.1
-  prettier-plugin-organize-imports: 3.2.0_tvv2okumkygnd3iwztkmithmfa
+  prettier-plugin-organize-imports: 3.2.0_5sgxzsnxaoooooyncbdnv2nvci
   prettier-plugin-packagejson: 2.3.0_prettier@2.7.1
   prettier-plugin-tailwindcss: 0.1.13_prettier@2.7.1
   tailwindcss: 3.2.4_postcss@8.4.19
@@ -165,11 +165,25 @@ packages:
       vue: 3.2.45
     dev: true
 
+  /@volar/language-core/1.0.11:
+    resolution: {integrity: sha512-YwUYKxIyDc+Fq3kQ6BGGfkrKCG5JzE2Yr6vMxrxEXW2rg/gsq3JgMk/4sI8ybRsaTirhCB4V8+AIVYsvcRxgig==}
+    dependencies:
+      '@volar/source-map': 1.0.11
+      '@vue/reactivity': 3.2.45
+      muggle-string: 0.1.0
+    dev: true
+
   /@volar/language-core/1.0.9:
     resolution: {integrity: sha512-5Fty3slLet6svXiJw2YxhYeo6c7wFdtILrql5bZymYLM+HbiZtJbryW1YnUEKAP7MO9Mbeh+TNH4Z0HFxHgIqw==}
     dependencies:
       '@volar/source-map': 1.0.9
       '@vue/reactivity': 3.2.42
+      muggle-string: 0.1.0
+    dev: true
+
+  /@volar/source-map/1.0.11:
+    resolution: {integrity: sha512-tkuV9MD+OuiZfHA0qZXrPdW6F7TvnpnuTan6Qe7UGUs9+sflezlMJdjaYdGgQObfP+06pcT1E3xdkOoi08ZyyQ==}
+    dependencies:
       muggle-string: 0.1.0
     dev: true
 
@@ -179,10 +193,29 @@ packages:
       muggle-string: 0.1.0
     dev: true
 
+  /@volar/typescript/1.0.11:
+    resolution: {integrity: sha512-mq7wDDAs0Eb43jev2FxbowuiwWqvL3kb+tar1we8VQbdabpyQ5dmbWPwo/IglevMmW3SKo1Et+6rqAeZpXNnPQ==}
+    dependencies:
+      '@volar/language-core': 1.0.11
+    dev: true
+
   /@volar/typescript/1.0.9:
     resolution: {integrity: sha512-dVziu+ShQUWuMukM6bvK2v2O446/gG6l1XkTh2vfkccw1IzjfbiP1TWQoNo1ipTfZOtu5YJGYAx+o5HNrGXWfQ==}
     dependencies:
       '@volar/language-core': 1.0.9
+    dev: true
+
+  /@volar/vue-language-core/1.0.11:
+    resolution: {integrity: sha512-A3ODs0/ua7BcpSSnE7KtO8bzWsYsbOJRyW2Q/2uktxlfHj8srln3JdgK/mNlIgfnWtACbE5K+EfMJOgJKv864A==}
+    dependencies:
+      '@volar/language-core': 1.0.11
+      '@volar/source-map': 1.0.11
+      '@vue/compiler-dom': 3.2.45
+      '@vue/compiler-sfc': 3.2.45
+      '@vue/reactivity': 3.2.45
+      '@vue/shared': 3.2.45
+      minimatch: 5.1.0
+      vue-template-compiler: 2.7.14
     dev: true
 
   /@volar/vue-language-core/1.0.9:
@@ -196,6 +229,13 @@ packages:
       '@vue/shared': 3.2.42
       minimatch: 5.1.0
       vue-template-compiler: 2.7.13
+    dev: true
+
+  /@volar/vue-typescript/1.0.11:
+    resolution: {integrity: sha512-jlnFPvBcTyPiAbGlgjhKK7fp3Q+Z7Z5eU1NTbTSS0lQC8Gog3sh2UxLAFG5Voe1gHIxasoOEPXzMR0CWF4bKbA==}
+    dependencies:
+      '@volar/typescript': 1.0.11
+      '@volar/vue-language-core': 1.0.11
     dev: true
 
   /@volar/vue-typescript/1.0.9:
@@ -1064,7 +1104,7 @@ packages:
       picocolors: 1.0.0
       source-map-js: 1.0.2
 
-  /prettier-plugin-organize-imports/3.2.0_tvv2okumkygnd3iwztkmithmfa:
+  /prettier-plugin-organize-imports/3.2.0_5sgxzsnxaoooooyncbdnv2nvci:
     resolution: {integrity: sha512-jeZ13YVKgXYCzkuwnoR6saKxJmdRYWMxS2G/su1V3qDWqTo1Q5iSoTblBxsXXAmomXfPqa/uA7YCK0/S86KLOQ==}
     peerDependencies:
       '@volar/vue-language-plugin-pug': ^1.0.4
@@ -1077,7 +1117,7 @@ packages:
       '@volar/vue-typescript':
         optional: true
     dependencies:
-      '@volar/vue-typescript': 1.0.9
+      '@volar/vue-typescript': 1.0.11
       prettier: 2.7.1
       typescript: 4.9.3
     dev: true
@@ -1311,6 +1351,13 @@ packages:
 
   /vue-template-compiler/2.7.13:
     resolution: {integrity: sha512-jYM6TClwDS9YqP48gYrtAtaOhRKkbYmbzE+Q51gX5YDr777n7tNI/IZk4QV4l/PjQPNh/FVa/E92sh/RqKMrog==}
+    dependencies:
+      de-indent: 1.0.2
+      he: 1.2.0
+    dev: true
+
+  /vue-template-compiler/2.7.14:
+    resolution: {integrity: sha512-zyA5Y3ArvVG0NacJDkkzJuPQDF8RFeRlzV2vLeSnhSpieO6LK2OVbdLPi5MPPs09Ii+gMO8nY4S3iKQxBxDmWQ==}
     dependencies:
       de-indent: 1.0.2
       he: 1.2.0
