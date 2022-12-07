@@ -1,4 +1,4 @@
-import Tabs from '@/components/Tabs.vue'
+import AppTabs from '@/components/AppTabs.vue'
 import { createRouter, createWebHistory } from '@ionic/vue-router'
 import { RouteRecordRaw } from 'vue-router'
 
@@ -9,7 +9,7 @@ const routes: RouteRecordRaw[] = [
   },
   {
     path: '/tabs/',
-    component: Tabs,
+    component: AppTabs,
     children: [
       {
         path: '',
@@ -17,15 +17,15 @@ const routes: RouteRecordRaw[] = [
       },
       {
         path: 'tab1',
-        component: () => import('@/views/Tab1.vue'),
+        component: () => import('@/views/AppTab1.vue'),
       },
       {
         path: 'tab2',
-        component: () => import('@/views/Tab2.vue'),
+        component: () => import('@/views/AppTab2.vue'),
       },
       {
         path: 'tab3',
-        component: () => import('@/views/Tab3.vue'),
+        component: () => import('@/views/AppTab3.vue'),
       },
     ],
   },
