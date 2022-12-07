@@ -7,6 +7,7 @@ module.exports = {
   arrowParens: 'always',
   printWidth: 120,
 
+  pluginSearchDirs: false,
   plugins: [
     require('prettier-plugin-packagejson'),
     require('./.prettier-plugins-workaround.cjs'),
