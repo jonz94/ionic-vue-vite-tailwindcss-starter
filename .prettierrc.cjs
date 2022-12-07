@@ -10,7 +10,7 @@ module.exports = {
   pluginSearchDirs: false,
   plugins: [
     require('prettier-plugin-packagejson'),
-    require('./.prettier-plugins-workaround.cjs'),
+    require('prettier-plugin-organize-imports'),
   ],
 
   overrides: [

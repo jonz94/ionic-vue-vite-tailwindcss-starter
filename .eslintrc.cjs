@@ -7,9 +7,15 @@ module.exports = {
     'eslint:recommended',
     '@vue/eslint-config-typescript',
     '@vue/eslint-config-prettier',
+    'plugin:tailwindcss/recommended',
   ],
   parserOptions: {
     ecmaVersion: 'latest',
+  },
+  settings: {
+    tailwindcss: {
+      config: 'tailwind.config.cjs',
+    },
   },
   rules: {
     'vue/no-deprecated-slot-attribute': 'off',
