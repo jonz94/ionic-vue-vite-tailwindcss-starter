@@ -7,7 +7,7 @@ specifiers:
   '@types/node': ^18.11.12
   '@types/prettier': ^2.7.1
   '@vitejs/plugin-vue': ^3.2.0
-  '@volar/vue-typescript': ^1.0.11
+  '@volar/vue-typescript': ^1.0.12
   '@vue/eslint-config-prettier': ^7.0.0
   '@vue/eslint-config-typescript': ^11.0.2
   autoprefixer: ^10.4.13
@@ -38,7 +38,7 @@ devDependencies:
   '@types/node': 18.11.12
   '@types/prettier': 2.7.1
   '@vitejs/plugin-vue': 3.2.0_vite@3.2.5+vue@3.2.45
-  '@volar/vue-typescript': 1.0.11
+  '@volar/vue-typescript': 1.0.12
   '@vue/eslint-config-prettier': 7.0.0_wdw3qg4p7crmsoaizcyntelyni
   '@vue/eslint-config-typescript': 11.0.2_sb3redb42nwkq4q6vnqovjecl4
   autoprefixer: 10.4.13_postcss@8.4.19
@@ -47,7 +47,7 @@ devDependencies:
   eslint-plugin-vue: 9.8.0_eslint@8.29.0
   postcss: 8.4.19
   prettier: 2.8.1
-  prettier-plugin-organize-imports: 3.2.1_usuc3tdoju6lhkqzqi6nrgcpzy
+  prettier-plugin-organize-imports: 3.2.1_c57qrbz4nsueohuxarkxbb7zz4
   prettier-plugin-packagejson: 2.3.0_prettier@2.8.1
   tailwindcss: 3.2.4_postcss@8.4.19
   typescript: 4.9.3
@@ -361,8 +361,22 @@ packages:
       muggle-string: 0.1.0
     dev: true
 
+  /@volar/language-core/1.0.12:
+    resolution: {integrity: sha512-I9wylkEq5Fhv4uIxXq4ys+GKVAxKY64DEw1nj8oP36xaOl80r6ogZ9V3BCKJp/npAlFCH7pAkUDSBkSo8v3Tfg==}
+    dependencies:
+      '@volar/source-map': 1.0.12
+      '@vue/reactivity': 3.2.45
+      muggle-string: 0.1.0
+    dev: true
+
   /@volar/source-map/1.0.11:
     resolution: {integrity: sha512-tkuV9MD+OuiZfHA0qZXrPdW6F7TvnpnuTan6Qe7UGUs9+sflezlMJdjaYdGgQObfP+06pcT1E3xdkOoi08ZyyQ==}
+    dependencies:
+      muggle-string: 0.1.0
+    dev: true
+
+  /@volar/source-map/1.0.12:
+    resolution: {integrity: sha512-5npjYmotdIIerchOn9QwGHM7LBNJLWAjPBMrZnvv1MbqTwAxu2H1+MNh/cvLeIcrzNSYui81RZsMaPKTRiiXyg==}
     dependencies:
       muggle-string: 0.1.0
     dev: true
@@ -371,6 +385,12 @@ packages:
     resolution: {integrity: sha512-mq7wDDAs0Eb43jev2FxbowuiwWqvL3kb+tar1we8VQbdabpyQ5dmbWPwo/IglevMmW3SKo1Et+6rqAeZpXNnPQ==}
     dependencies:
       '@volar/language-core': 1.0.11
+    dev: true
+
+  /@volar/typescript/1.0.12:
+    resolution: {integrity: sha512-7PR4Fwg3EyuwmagodaGntKxDqzie5Ywiq7evx5UvNIY0BP3yXrCADxBMFYLJykb+ECSE+GbTClsyXTnJQ9xi1Q==}
+    dependencies:
+      '@volar/language-core': 1.0.12
     dev: true
 
   /@volar/vue-language-core/1.0.11:
@@ -386,11 +406,31 @@ packages:
       vue-template-compiler: 2.7.14
     dev: true
 
+  /@volar/vue-language-core/1.0.12:
+    resolution: {integrity: sha512-2JnKRwTJZxAHwFiaQmp79GwyAzf2UPOSnAe6QfOCTQvQ79iNj/zdzDjSzogeuwkCgrG8GHgaMiuWZx4xIXgTIQ==}
+    dependencies:
+      '@volar/language-core': 1.0.12
+      '@volar/source-map': 1.0.12
+      '@vue/compiler-dom': 3.2.45
+      '@vue/compiler-sfc': 3.2.45
+      '@vue/reactivity': 3.2.45
+      '@vue/shared': 3.2.45
+      minimatch: 5.1.0
+      vue-template-compiler: 2.7.14
+    dev: true
+
   /@volar/vue-typescript/1.0.11:
     resolution: {integrity: sha512-jlnFPvBcTyPiAbGlgjhKK7fp3Q+Z7Z5eU1NTbTSS0lQC8Gog3sh2UxLAFG5Voe1gHIxasoOEPXzMR0CWF4bKbA==}
     dependencies:
       '@volar/typescript': 1.0.11
       '@volar/vue-language-core': 1.0.11
+    dev: true
+
+  /@volar/vue-typescript/1.0.12:
+    resolution: {integrity: sha512-MhdZmUlvl54w2rsPXEtwbX7dq1Dya7THFcDof7vNaH3PwBxqnDn8SZS1Yoxe3pENuAXNwQskAc2uP9R9LYe36g==}
+    dependencies:
+      '@volar/typescript': 1.0.12
+      '@volar/vue-language-core': 1.0.12
     dev: true
 
   /@vue/compiler-core/3.2.45:
@@ -1719,7 +1759,7 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier-plugin-organize-imports/3.2.1_usuc3tdoju6lhkqzqi6nrgcpzy:
+  /prettier-plugin-organize-imports/3.2.1_c57qrbz4nsueohuxarkxbb7zz4:
     resolution: {integrity: sha512-bty7C2Ecard5EOXirtzeCAqj4FU4epeuWrQt/Z+sh8UVEpBlBZ3m3KNPz2kFu7KgRTQx/C9o4/TdquPD1jOqjQ==}
     peerDependencies:
       '@volar/vue-language-plugin-pug': ^1.0.4
@@ -1732,7 +1772,7 @@ packages:
       '@volar/vue-typescript':
         optional: true
     dependencies:
-      '@volar/vue-typescript': 1.0.11
+      '@volar/vue-typescript': 1.0.12
       prettier: 2.8.1
       typescript: 4.9.3
     dev: true
