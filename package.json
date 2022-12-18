@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
-    "@types/node": "^18.11.14",
+    "@types/node": "^18.11.17",
     "@types/prettier": "^2.7.1",
     "@vitejs/plugin-vue": "^4.0.0",
     "@volar/vue-typescript": "^1.0.13",
