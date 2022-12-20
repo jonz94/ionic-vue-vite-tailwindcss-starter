@@ -1,4 +1,12 @@
-# Ionic Vue Starter
+# Ionic Vue Vite Tailwind CSS Starter
+
+## Usage
+
+Use [`tiged`](https://github.com/tiged/tiged) to create project from this starter:
+
+```shell
+npx tiged@latest jonz94/ionic-vue-vite-tailwindcss-starter new-ionic-project
+```
 
 ## Tool Stacks
 
@@ -8,10 +16,12 @@
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [pnpm](https://pnpm.io/)
-- [Prettier](https://prettier.io/) with following Prettier plugins:
+- [ESLint](https://eslint.org/)
+    - [eslint-plugin-vue](https://eslint.vuejs.org/)
+    - [eslint-plugin-tailwindcss](https://github.com/francoismassart/eslint-plugin-tailwindcss)
+- [Prettier](https://prettier.io/)
     - [prettier-plugin-organize-imports](https://github.com/simonhaenisch/prettier-plugin-organize-imports)
     - [prettier-plugin-packagejson](https://github.com/matzkoh/prettier-plugin-packagejson)
-    - [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 
 ## Credits
 
