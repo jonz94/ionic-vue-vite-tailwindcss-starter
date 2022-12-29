@@ -1,4 +1,4 @@
-# Ionic Vue Vite Tailwind CSS Starter
+# Ionic + Vue + Vite + Tailwind CSS Starter
 
 ## Usage
 
