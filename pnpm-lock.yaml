@@ -1,8 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@ionic/vue': ^6.4.1
-  '@ionic/vue-router': ^6.4.1
+  '@ionic/vue': ^6.4.2
+  '@ionic/vue-router': ^6.4.2
   '@rushstack/eslint-patch': ^1.2.0
   '@types/node': ^18.11.18
   '@types/prettier': ^2.7.2
@@ -29,8 +29,8 @@ specifiers:
   vue-tsc: ^1.0.24
 
 dependencies:
-  '@ionic/vue': 6.4.1
-  '@ionic/vue-router': 6.4.1
+  '@ionic/vue': 6.4.2
+  '@ionic/vue-router': 6.4.2
   ionicons: 6.0.4
   vue: 3.2.45
   vue-router: 4.1.6_vue@3.2.45
@@ -318,24 +318,24 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@ionic/core/6.4.1:
-    resolution: {integrity: sha512-l1Z2sA9VjkO5rFhQMlNkqWQaSRyV1mcb6nYvLgi1cyDegcSDqLLJjZeyKVKYxTuc2qCaZhRlBe+c2155W8hmsw==}
+  /@ionic/core/6.4.2:
+    resolution: {integrity: sha512-X6lKIrVL68UC3HenkUpOMw2Wu6D+XN42EbBPJdKFxGiW8ozhpzYj8QMUcX6ESC7jk44CrpUN3GpHhb+Lrw78OA==}
     dependencies:
       '@stencil/core': 2.18.0
       ionicons: 6.0.4
       tslib: 2.4.0
     dev: false
 
-  /@ionic/vue-router/6.4.1:
-    resolution: {integrity: sha512-v4PDBeWosv5OaYnWY++B3OGIsFTIJ+dlCGdtXeuttlEZX0GrlkEq3DNG58FNxzj07JnBjqVpJWWPdSr6PuO3tA==}
+  /@ionic/vue-router/6.4.2:
+    resolution: {integrity: sha512-g8PNiIbkxDpX6H+U6aiWS/GiWmlgRLdq0KirBD9UQaqTjjaT3pCMd5DTcRps6SLSBfbW7Vg0gwsTYnpXRLYU5A==}
     dependencies:
-      '@ionic/vue': 6.4.1
+      '@ionic/vue': 6.4.2
     dev: false
 
-  /@ionic/vue/6.4.1:
-    resolution: {integrity: sha512-QbW3YzeFrD7ZLIEudH/Kv6tNslit7a0ec/jcdNdkCBs5MdOHGxAYKs0eGBRAJlqAZMBHPuuBXnRdxwMP0hp89w==}
+  /@ionic/vue/6.4.2:
+    resolution: {integrity: sha512-6qYuHm8QWmjtdR+DE2hwkw93rq+trLUyoexqNRLTxAO3nqB+0WmtqaXbFYZgTAj0/IkmVV4aLXOz0zBTZFlT8w==}
     dependencies:
-      '@ionic/core': 6.4.1
+      '@ionic/core': 6.4.2
       ionicons: 6.0.4
     dev: false
 
