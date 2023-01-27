@@ -11,15 +11,17 @@ Use [`tiged`](https://github.com/tiged/tiged) to create project from this starte
 npx tiged@latest jonz94/ionic-vue-vite-tailwindcss-starter new-ionic-project
 ```
 
-## Tool Stacks
+## Tech Stacks
 
 - [Ionic UI toolkit](https://ionicframework.com/docs/)
 - [Vue 3](https://vuejs.org/)
 - [Vue Router](https://router.vuejs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [pnpm](https://pnpm.io/)
 - [ESLint](https://eslint.org/)
+    - [TypeScript ESLint](https://typescript-eslint.io/)
     - [eslint-plugin-vue](https://eslint.vuejs.org/)
     - [eslint-plugin-tailwindcss](https://github.com/francoismassart/eslint-plugin-tailwindcss)
 - [Prettier](https://prettier.io/)
