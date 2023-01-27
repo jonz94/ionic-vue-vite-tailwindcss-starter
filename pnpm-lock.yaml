@@ -16,7 +16,7 @@ specifiers:
   eslint: ^8.32.0
   eslint-plugin-tailwindcss: ^3.8.0
   eslint-plugin-vue: ^9.9.0
-  ionicons: ^6.0.4
+  ionicons: ^6.1.1
   postcss: ^8.4.21
   prettier: ^2.8.3
   prettier-plugin-organize-imports: ^3.2.2
@@ -31,7 +31,7 @@ specifiers:
 dependencies:
   '@ionic/vue': 6.5.1
   '@ionic/vue-router': 6.5.1
-  ionicons: 6.0.4
+  ionicons: 6.1.1
   vue: 3.2.45
   vue-router: 4.1.6_vue@3.2.45
 
@@ -1390,12 +1390,6 @@ packages:
   /inherits/2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
     dev: true
-
-  /ionicons/6.0.4:
-    resolution: {integrity: sha512-uDNOkBo0OVYV+kIhb51g9mb7r3Z0b+78GPZQBsjXuaetNmrB/mNTqN/uFtO+vxL/rQySKjzk8qeKJI5NWL9Ueg==}
-    dependencies:
-      '@stencil/core': 2.18.0
-    dev: false
 
   /ionicons/6.1.1:
     resolution: {integrity: sha512-Qe6mx25DFNwA9UL1rhewI5StI3uD4+BqB2KdvLjyWhtvoUXwyAsmfHLZuDANAHQowIKtTt6BZCt5/g5NIQ635Q==}
