@@ -27,7 +27,7 @@
     "@volar/vue-typescript": "^1.2.0",
     "@vue/eslint-config-prettier": "^7.1.0",
     "@vue/eslint-config-typescript": "^11.0.2",
-    "autoprefixer": "^10.4.13",
+    "autoprefixer": "^10.4.14",
     "eslint": "^8.35.0",
     "eslint-plugin-tailwindcss": "^3.9.0",
     "eslint-plugin-vue": "^9.9.0",
